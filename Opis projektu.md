@@ -2,10 +2,7 @@ Temat projektu:
 
 	Implementacja klasycznej gry planszowej “Go” dla dwóch graczy.
 
-
-Mechaniki:
-
-	Celem projektu jest stworzenie działającej aplikacji umożliwiającej rozgrywkę w chińską grę 	planszową Go dla dwóch osób przy jednym komputerze. Program będzie w pełni obsługiwał 	zasady gry, w tym:
+	Celem projektu jest stworzenie działającej aplikacji umożliwiającej rozgrywkę w chińską grę planszową Go dla dwóch osób przy jednym komputerze. Program będzie w pełni obsługiwał zasady gry, w tym:
 
 - Naprzemienne stawianie kamieni (czarnych i białych) na przecięciach linii.
 
@@ -15,12 +12,12 @@ Mechaniki:
 
 - Zliczanie punktów (terytorium + jeńcy) i wyłanianie zwycięzcy po zakończeniu partii (spasowaniu przez obu graczy).
 
-Gra będzie toczyć się na planszy o rozmiarze 9x9, 13x13 lub 19x19 do wyboru w menu.
+- Gra będzie toczyć się na planszy o rozmiarze 9x9, 13x13 lub 19x19 do wyboru w menu.
 
 
 Logika:
 
-**	Inicjalizacja: Uruchomienie programu i wyświetlenie menu głównego (nowa gra, 	wyjście).**
+- **Inicjalizacja: Uruchomienie programu i wyświetlenie menu głównego (nowa gra, wyjście).**
 
 
 - **Ustawienia partii: Wybór rozmiaru planszy.**
@@ -45,31 +42,30 @@ Logika:
 
 **Punkty (jeńcy): Czarne: 2 | Białe: 0**
 
-**A B C D E F G H I**
+A B C D E F G H I
 
-**+-------------------+ **
++-------------------+
 
-**1 | . . . . . . . . . | 1 **
+1 | . . . . . . . . . | 1
 
-**2 | . . X O . . . . . | 2**
+2 | . . X O . . . . . | 2
 
-**3 | . X . X O . . . . | 3**
+3 | . X . X O . . . . | 3
 
-**4 | . . X O O . . . . | 4**
+4 | . . X O O . . . . | 4
 
-** 5 | . . . . . . . . . | 5**
+5 | . . . . . . . . . | 5
 
-** 6 | . . . . . . . . . | 6**
+6 | . . . . . . . . . | 6
 
-** 7 | . . . . . . . . . | 7**
+7 | . . . . . . . . . | 7
 
-** 8 | . . . . . . . . . | 8**
+8 | . . . . . . . . . | 8
 
-** 9 | . . . . . . . . . | 9**
+9 | . . . . . . . . . | 9
 
-** +-------------------+ **
++-------------------+
 
-**A B C D E F G H I**
+A B C D E F G H I
 
-** Wpisz swój ruch (np. D4) lub 'PASS': \_**
-
+ Wpisz swój ruch (np. d4) lub 'pass':
